@@ -1,0 +1,60 @@
+body {
+    background-color: rgb(255, 255, 255);
+    font-family: Arial, Helvetica, sans-serif;
+}
+header {
+    background-color: rgb(255, 255, 255);
+    padding: 20px;
+    border-color: rgb(255, 255, 255);
+}
+nav a {
+    color: rgb(2, 145, 56);
+    text-decoration: none;
+    margin: 0 5px;
+    font-weight: bold;
+}
+nav a:hover {
+    text-decoration:wavy;
+    color: rgb(214, 135, 32);
+}
+#amazon {
+    width: 200px;
+    
+}
+img {
+    width: 120px;
+    height: 120px;
+    border-radius: 0px ;
+}
+table {
+    border-radius: 10px;
+    border: 3px solid darkgray;
+    
+}
+td {
+    padding: 10px;
+    border-radius: 10px;
+    
+}
+th {
+    padding: 5px;
+    border-radius: 10px;
+}
+html {
+    scroll-behavior: smooth;
+}
+footer {
+    background-color: aliceblue;
+    height: 75px;
+}
+#search {
+    box-shadow: 10px;
+    border-radius: 5px;
+    border: 3px solid grey;
+    padding: 5px;
+}
+#glass {
+    width: 20px;
+    height: 20px;
+    
+}
