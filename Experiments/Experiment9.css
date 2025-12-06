@@ -1,6 +1,9 @@
 body {
     background-color: rgb(255, 255, 255);
     justify-content: center;
+  align-items: center;
+  display: flex;
+  
 }
 .container {
     border: 2px solid;
@@ -8,7 +11,8 @@ body {
     padding: 20px;
     background-color: rgb(235, 235, 235);
     height: 200px;
- 
+  width: fit-content;
+
 }
 .heading {
     text-align: center;
@@ -33,7 +37,7 @@ body {
 .details {
     transform: scale(.8);
     color: rgb(92, 92, 92);
-    
+
 }
 .price {
     font-weight: bold;
@@ -62,3 +66,4 @@ body {
         margin-bottom: 20px;
     }
 }
+
